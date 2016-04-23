@@ -23,3 +23,6 @@ debug.atrace.tags.enableflags=0
 ro.bootimage.build.date=Mon Apr 4 16:06:18 KST 2016
 ro.bootimage.build.date.utc=1459753578
 ro.bootimage.build.fingerprint=samsung/zerofltexx/zeroflte:6.0.1/MMB29K/G920FXXU3DPD8:user/test-keys
+
+# Retain WIFI settings through reboots & flashes
+ro.securestorage.support=false
