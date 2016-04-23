@@ -26,3 +26,6 @@ ro.bootimage.build.fingerprint=samsung/zerofltexx/zeroflte:6.0.1/MMB29K/G920FXXU
 
 # Retain WIFI settings through reboots & flashes
 ro.securestorage.support=false
+
+# Screen mirroring fix
+wlan.wfd.hdcp=disable 
