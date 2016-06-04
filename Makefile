@@ -386,6 +386,7 @@ KBUILD_CFLAGS   := -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs \
 		   -fno-strict-aliasing -fno-common \
 		   -Werror-implicit-function-declaration \
 		   -Wno-format-security \
+		   -Wno-error=implicit-function-declaration \
 		   -fno-delete-null-pointer-checks \
 		   -fdiagnostics-show-option -Werror \
 		   -march=armv8-a+crc \
